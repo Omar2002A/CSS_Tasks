@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(28, 165, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(28,156,170);
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.checkbox p {
+    margin: 0;
+}
+
+.submit {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: rgb(28, 165, 170);
+    color: white;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(19, 152, 156);
+}
+
+.forget {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 165, 170);
+}
+
+a:hover {
+    text-decoration: underline;
+}

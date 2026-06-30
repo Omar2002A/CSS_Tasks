@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(43, 3, 66);
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 350px;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  max-width: 900px;
+  width: 100%;
+}
+
+.illustration {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: #eef0f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.illustration svg { width: 160px; height: auto; }
+.form-side {
+  width: 340px;
+  max-width: 100%;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+.input-wrap {
+  position: relative;
+  margin-bottom: 18px;
+}
+.input-wrap .icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9a9aa5;
+  font-size: 15px;
+}
+.input-wrap input {
+  width: 100%;
+  padding: 14px 18px 14px 44px;
+  border: none;
+  border-radius: 8px;
+  background: #e9e9ee;
+  font-size: 14px;
+  color: #555;
+  outline: none;
+}
+.input-wrap input::placeholder { color: #9a9aa5; }
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #3ec95c;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.login-btn:hover { background: #34b34f; }
+.forgot {
+  text-align: center;
+  font-size: 13px;
+  color: #444;
+  margin-top: 18px;
+}
+.forgot a {
+  color: #3ec95c;
+  text-decoration: none;
+  font-weight: 600;
+}
+.forgot a:hover { text-decoration: underline; }
+.create {
+  text-align: center;
+  margin-top: 16px;
+}
+.create a {
+  color: #3ec95c;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+.create a:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .container { flex-direction: column; gap: 40px; }
+  h1 { text-align: center; }
+}

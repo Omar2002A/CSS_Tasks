@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.left {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.right {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}

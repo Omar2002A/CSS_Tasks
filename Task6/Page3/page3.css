@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.container {
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 6px solid orange;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.cell:nth-child(1){
+    background: #e74c3c;
+}
+
+.cell:nth-child(2){
+    background: #3498db;
+}
+
+.cell:nth-child(3){
+    background: #2ecc71;
+}
+
+.cell:nth-child(4){
+    background: #f39c12;
+}
+
+.cell:nth-child(5){
+    background: #9b59b6;
+}
+
+.cell:nth-child(6){
+    background: #1abc9c;
+}
+
+.cell:nth-child(7){
+    background: #e67e22;
+}
+
+.cell:nth-child(8){
+    background: #34495e;
+}
+
+.cell:nth-child(9){
+    background: #ff69b4;
+}
+
+.cell:nth-child(10){
+    background: #7f8c8d;
+}

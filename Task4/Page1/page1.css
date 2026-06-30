@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.buttom {
+    background-color: burlywood;
+    height: 60vh;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.second {
+    color: brown;
+}
