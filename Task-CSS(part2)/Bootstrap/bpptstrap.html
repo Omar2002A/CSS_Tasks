@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="IMG/OIP.jpg" alt="Orange" />
+        </a>
+
+        <button
+          class="btn btn-category d-none d-lg-inline-flex align-items-center gap-2 ms-3"
+        >
+          <i class="bi bi-list"></i> Category
+        </button>
+
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav mx-auto my-3 my-lg-0 gap-lg-4">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-link-custom dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Landings</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Landing 1</a></li>
+                <li><a class="dropdown-item" href="#">Landing 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-link-custom dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-link-custom dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Accounts</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-link-custom dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Mega Menu</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Item 1</a></li>
+                <li><a class="dropdown-item" href="#">Item 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link nav-link-custom" href="#"
+                ><i class="bi bi-three-dots"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 ms-lg-3">
+          <button class="icon-btn d-none d-md-inline-flex">
+            <i class="bi bi-sun"></i>
+          </button>
+          <button class="icon-btn d-none d-md-inline-flex">
+            <i class="bi bi-cart2"></i>
+          </button>
+          <a href="#" class="btn btn-signin d-none d-sm-inline-block"
+            >Sign in</a
+          >
+          <a href="#" class="btn btn-signup">Sign up</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <span class="badge-trust"
+              ><i class="bi bi-check-circle-fill me-1"></i> Most trusted
+              education platform</span
+            >
+            <h1>Grow your skills and<br />advance career</h1>
+            <p>
+              Start, switch, or advance your career with more than 5,000
+              courses, Professional Certificates, and degrees from world-class
+              universities and companies.
+            </p>
+            <div class="d-flex align-items-center gap-4 flex-wrap">
+              <a href="#" class="btn btn-join">Join Free Now</a>
+              <a href="#" class="watch-demo">
+                <span class="play-circle"><i class="bi bi-play-fill"></i></span>
+                Watch Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="hero-purple-shape"></div>
+              <div class="hero-blue-shape"></div>
+
+              <img
+                src="D:\Orange\CSS_Tasks\Task-CSS(part2)\Bootstrap\IMG\pic.png"
+                alt="Student"
+                class="hero-photo"
+              />
+
+              <span class="floating-icon icon-trophy">🏆</span>
+              <span class="floating-icon icon-megaphone">📣</span>
+              <span class="floating-icon icon-target">🎯</span>
+
+              <div class="float-card card-instructor">
+                <div class="title">Qualified Instructor</div>
+                <div class="row-item">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="instructor"
+                  />
+                  <span class="bar"></span>
+                </div>
+                <div class="row-item mb-0">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/45.jpg"
+                    alt="instructor"
+                  />
+                  <span class="bar"></span>
+                </div>
+              </div>
+
+              <div class="float-card card-hours">
+                <div class="title">Weekly Spent Hours</div>
+                <div class="value">35 hrs 40 mins</div>
+                <div class="mini-bars">
+                  <span style="height: 35%"></span>
+                  <span style="height: 60%"></span>
+                  <span style="height: 40%"></span>
+                  <span style="height: 80%"></span>
+                  <span style="height: 50%"></span>
+                  <span style="height: 70%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-md-3">
+            <div class="stat-item">
+              <div
+                class="stat-icon"
+                style="background: #e9f2ff; color: #2f7fe0"
+              >
+                <i class="bi bi-award"></i>
+              </div>
+              <div>
+                <div class="stat-num">316,000+</div>
+                <div class="stat-label">Qualified Instructor</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-item">
+              <div
+                class="stat-icon"
+                style="background: #fdeee3; color: #e07a2f"
+              >
+                <i class="bi bi-people"></i>
+              </div>
+              <div>
+                <div class="stat-num">1.8 Billion+</div>
+                <div class="stat-label">Course enrolments</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-item">
+              <div
+                class="stat-icon"
+                style="background: #f2eefd; color: #7a4fe0"
+              >
+                <i class="bi bi-tv"></i>
+              </div>
+              <div>
+                <div class="stat-num">41,000+</div>
+                <div class="stat-label">Courses in 42 languages</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-item">
+              <div
+                class="stat-icon"
+                style="background: #e9f9ef; color: #1cb15a"
+              >
+                <i class="bi bi-camera-reels"></i>
+              </div>
+              <div>
+                <div class="stat-num">179,000+</div>
+                <div class="stat-label">Online Videos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COURSES ================= -->
+    <section class="courses">
+      <div class="container">
+        <h2>Most Popular Courses</h2>
+        <p>
+          These are the most popular courses among Geeks Courses learners
+          worldwide in year 2022
+        </p>
+
+        <ul class="nav nav-pills-custom" id="courseTabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Development</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Marketing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+        </ul>
+
+        <div class="row g-4">
+          <!-- JavaScript -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-js">
+                <div class="icon-box">JS</div>
+                <div class="tech-name">JavaScript</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-intermediate"
+                    >Intermediate</span
+                  >
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">
+                  How to easily create a website with
+                </div>
+                <div class="course-author">By: Claire Evans</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(9,300)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$39.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS3 -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-css">
+                <div class="icon-box"><i class="bi bi-filetype-css"></i></div>
+                <div class="tech-name">CSS3</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-beginner">Beginner</span>
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">CSS: ultimate CSS course from</div>
+                <div class="course-author">By: Carolyn Welborn</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(8,890)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$30.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gatsby -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-gatsby">
+                <div class="icon-box">
+                  <i class="bi bi-lightning-charge"></i>
+                </div>
+                <div class="tech-name">Gatsby</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-intermediate"
+                    >Intermediate</span
+                  >
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">The Gatsby Course: build web</div>
+                <div class="course-author">By: Floyd Amall</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(13,245)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$34.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- WordPress -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-wp">
+                <div class="icon-box"><i class="bi bi-wordpress"></i></div>
+                <div class="tech-name">WordPress</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-advance">Advance</span>
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">WordPress: introduction to</div>
+                <div class="course-author">By: Victor Elliott</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(9,300)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$39.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- React -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-react">
+                <div class="icon-box"><i class="bi bi-atom"></i></div>
+                <div class="tech-name">React</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-intermediate"
+                    >Intermediate</span
+                  >
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">
+                  How to easily create a website with React
+                </div>
+                <div class="course-author">By: Morris Mccoy</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(7,700)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$29.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GraphQL -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-graphql">
+                <div class="icon-box"><i class="bi bi-hexagon"></i></div>
+                <div class="tech-name">GraphQL</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-beginner">Beginner</span>
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">GraphQL: introduction to</div>
+                <div class="course-author">By: Michael Cundiff</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(9,300)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">Free</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Angular -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-angular">
+                <div class="icon-box"><i class="bi bi-shield-shaded"></i></div>
+                <div class="tech-name">Angular</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-advance">Advance</span>
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">Angular - the complete guide for</div>
+                <div class="course-author">By: Jeffrey McCoy</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(8,890)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$49.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="col-sm-6 col-lg-3">
+            <div class="course-card">
+              <div class="course-banner banner-python">
+                <div class="icon-box"><i class="bi bi-code-slash"></i></div>
+                <div class="tech-name">Python</div>
+              </div>
+              <div class="course-body">
+                <div class="course-top-row">
+                  <span class="level-badge level-beginner">Beginner</span>
+                  <i class="bi bi-heart course-heart"></i>
+                </div>
+                <div class="course-title">The Python Course: build web</div>
+                <div class="course-author">By: Douglas Howell</div>
+                <div class="course-rating">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-half"></i> 4.5
+                  <span class="count">(13,245)</span>
+                </div>
+                <div class="course-bottom-row">
+                  <span class="course-price">$19.00</span>
+                  <a href="#" class="course-enroll"
+                    ><i class="bi bi-cart2"></i> Get Enrolled</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button
+      class="scroll-top-btn"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
