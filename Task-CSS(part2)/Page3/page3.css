@@ -1,0 +1,169 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0b1330;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100vh;
+}
+
+.site-header {
+    width: 100%;
+    background: #0b1330;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.logo-mark {
+    background: #e0475a;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.logo-text {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    font-size: 0.85rem;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 48px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin: 0 0 32px;
+    font-size: 0.95rem;
+}
+
+.select-wrap {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.select-wrap label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.select-wrap select {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+}
+
+.select-wrap select:focus {
+    outline: none;
+    border-color: #0b1330;
+}
+
+.link-inline {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #0b1330;
+    text-decoration: underline;
+}
+
+.cta-band {
+    background: #f0e2c8;
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.cta-band h2 {
+    font-size: 1.1rem;
+    margin: 0 0 8px;
+}
+
+.cta-band a {
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #0b1330;
+    text-decoration: none;
+}
+
+.cta-band a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 577px) {
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width: 993px) {
+    .site-header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 18px 40px;
+    }
+
+    .navigation {
+        gap: 24px;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 64px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+}
